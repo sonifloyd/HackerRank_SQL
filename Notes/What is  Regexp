@@ -1,0 +1,9 @@
+https://www.geeksforgeeks.org/mysql-regular-expressions-regexp/
+
+Match beginning of string(^):
+Gives all the names starting with ‘sa’.Example- sam,samarth.
+SELECT name FROM student_tbl WHERE name REGEXP '^sa';
+
+Match the end of a string($):
+Gives all the names ending with ‘on’.Example – norton,merton.
+SELECT name FROM student_tbl WHERE name REGEXP 'on$';
