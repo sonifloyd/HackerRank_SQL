@@ -1,0 +1,4 @@
+You can use ORDER BY RIGHT() function to order by last 3 chars in MySQL. The syntax is as follows −
+
+SELECT *FROM yourTableName
+ORDER BY RIGHT(yourColumnName,3) yourSortingOrder;
